@@ -1,4 +1,3 @@
-import { button } from 'framer-motion/client';
 import React from 'react'
 
 const MagicButton = ({ title, icon, position, handleClick, otherClasses}:{

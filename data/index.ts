@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a Furniture landing page",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,39 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      title: "MarketPlace Store Web Design",
+      des: "A responsive online marketplace design built with React.js, offering smooth navigation and a modern interface.",
+      img: "/project12.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/ahmadaljabawi/MarketPlace_ReactJS",
+      toShow: "MarketPlace",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      title: "Video Sharing Mobile App",
+      des: "A mobile app for seamless video sharing, featuring an intuitive interface and smooth playback.",
+      img: "/project22.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg"],
+      link: "https://github.com/ahmadaljabawi/react_native_AI_videos_sharing_app",
+      toShow: "MobileApp",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      title: "Anime Hub Web Design",
+      des: "A dynamic web design for an anime platform, offering easy navigation and a visually appealing interface.",
+      img: "/project32.png",
+      iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/ahmadaljabawi/Simple-Infinite-Scroll-NextJs-App",
+      toShow: "AnimeWeb",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      title: "Personal Portfolio Web Design.",
+      des: "A sleek and modern portfolio website design to showcase projects, skills, and experience with a user-friendly interface.",
+      img: "/project41.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg"],
+      link: "https://github.com/ahmadaljabawi/portfolio_project",
+      toShow: "Portfolio",
     },
   ];
   
@@ -180,24 +184,24 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Data Engineer Intern",
+      desc: "Gained expertise in Oracle SQL, optimized data relationships, and implemented efficient database structures.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      title: "Data Science Intern",
+      desc: "Worked with Python, Pandas, and SQLite for data analysis and conducted data mining projects for insights.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      title: "Freelance Web Dev Project",
+      desc: "Led the dev of a web app for a client, from initial concept to deployment on hosting services.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp3.svg",
     },
   ];
   
@@ -205,13 +209,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/ahmadaljabawi",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/ahmad-aljabawi-17b606232/",
     },
   ];
